@@ -1,0 +1,55 @@
+section{
+    max-width: 30%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: solid 3px black;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 8vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 28pt;
+    padding-top: 15px;
+}
+
+.container{
+    text-align: center;
+}
+
+.container label{
+    font-size: 20pt;
+}
+
+.container input[type=number]{
+    width: 250px;
+    height: 30px;
+    font-size: 16pt;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+}
+
+button{
+    font-weight: bold;
+    font-size: 14pt;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 50px;
+    border-color: transparent;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    transition: ease-in .2s;
+}
+
+button:hover{
+    background-color: rgb(21, 116, 210);
+    font-size: 16pt;
+    transition: ease-in .2s;
+    cursor: pointer;
+}

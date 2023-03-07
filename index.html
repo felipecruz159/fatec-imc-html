@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Calculadora de IMC</h1>       
+        
+        <div class="container">
+            <label for="peso">Qual o seu peso?</label>
+            <br>
+            <input type="number" name="peso" id="peso">
+
+            <br>
+
+            <label for="altura">Qual a sua altura?</label>
+            <br>
+            <input type="number" name="altura" id="altura">
+
+            <br>
+
+            <form action="" method="">
+                <input type="radio" id="fem" name="gender" value="feminino">
+                <label for="fem">Feminino</label>
+                
+                <input type="radio" id="masc" name="gender" value="masculino">
+                <label for="masc">Masculino</label><br>
+            </form>
+
+            <div id="result" style="visibility: hidden">
+                <h3>-</h3>
+            </div>
+
+            <button type="button" id="calcular">Calcular</button>
+        </div>
+    </section>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
